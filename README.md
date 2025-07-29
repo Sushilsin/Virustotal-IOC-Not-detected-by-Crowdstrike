@@ -43,7 +43,7 @@ This **Python script** automates searching VirusTotal Intelligence for files fro
     ```sh
     python vt_cs.py
     ```
-   Results will be written to `not_detected_by_crowdstrike.csv`.
+   Results will be written to `malicious_by_any_not_crowdstrike.csv`.
 
 ## Configuration
 
