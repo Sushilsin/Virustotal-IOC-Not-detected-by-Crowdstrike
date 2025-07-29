@@ -15,10 +15,17 @@ This **Python script** automates searching VirusTotal Intelligence for files fro
 
 ## Quick Start
 
+**Download the File:**
+
+```sh
+git clone https://github.com/Sushilsin/Virustotal-IOC-Not-detected-by-Crowdstrike
+cd Virustotal-IOC-Not-detected-by-Crowdstrike
+```
+
 1. **Install dependencies:**
 
     ```sh
-    pip install vt-py
+    pip3 install vt-py
     ```
 
 2. **Obtain a VirusTotal API key:**  
@@ -41,7 +48,7 @@ This **Python script** automates searching VirusTotal Intelligence for files fro
     ```
 6. **Run the script:**
     ```sh
-    python vt_cs.py
+    python3 vt_cs.py
     ```
    Results will be written to `malicious_by_any_not_crowdstrike.csv`.
 
