@@ -13,18 +13,6 @@ This **Python script** automates searching VirusTotal Intelligence for files fro
 - Filters results for hashes *not detected* by CrowdStrike Falcon.
 - Customizable search/query, batch size, and output volume.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Configuration](#configuration)
-- [How It Works](#how-it-works)
-- [Customizing](#customizing)
-- [Dependencies](#dependencies)
-- [Caveats & Notes](#caveats--notes)
-- [License](#license)
-
 ## Quick Start
 
 1. **Install dependencies:**
@@ -45,14 +33,16 @@ This **Python script** automates searching VirusTotal Intelligence for files fro
    API_KEY = ""
    ```
 
-5. **Run the script:**
+5. **Set the environment variable:**
 
     ```sh
     export SSL_CERT_FILE=$(python3 -m certifi)
     export REQUESTS_CA_BUNDLE=$(python3 -m certifi)
+    ```
+6. **Run the script:**
+    ```sh
     python vt_cs.py
     ```
-
    Results will be written to `not_detected_by_crowdstrike.csv`.
 
 ## Configuration
