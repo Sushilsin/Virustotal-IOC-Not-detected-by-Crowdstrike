@@ -1,4 +1,3 @@
-# Virustotal-IOC-Not-detected-by-Crowdstrike
 # CrowdStrike Falcon VirusTotal Hash Not-Detected Extractor
 
 ## Overview
