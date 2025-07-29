@@ -48,6 +48,8 @@ This **Python script** automates searching VirusTotal Intelligence for files fro
 5. **Run the script:**
 
     ```sh
+    export SSL_CERT_FILE=$(python3 -m certifi)
+    export REQUESTS_CA_BUNDLE=$(python3 -m certifi)
     python vt_cs.py
     ```
 
